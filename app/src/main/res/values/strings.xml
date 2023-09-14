@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Ecar_Track</string>
+    <string name="home_page">Home</string>
+    <string name="search_page">Search</string>
+    <string name="favorite_page">Favorite</string>
+    <string name="notificate">Notification</string>
+    <string name="profile_page">Profile</string>
 </resources>
