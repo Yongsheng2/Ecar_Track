@@ -1,3 +1,5 @@
+import java.security.KeyStore
+
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
@@ -6,6 +8,10 @@ plugins {
 android {
     namespace 'my.tarc.edu.ecar_track'
     compileSdk 33
+
+    buildFeatures{
+        viewBinding true
+    }
 
     defaultConfig {
         applicationId "my.tarc.edu.ecar_track"
