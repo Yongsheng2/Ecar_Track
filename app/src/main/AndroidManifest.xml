@@ -13,6 +13,43 @@
         android:theme="@style/Theme.Ecar_Track"
         tools:targetApi="31">
         <activity
+            android:name=".splash"
+            android:exported="false" />
+        <activity
+            android:name=".station_detail"
+            android:exported="false" />
+        <activity
+            android:name=".user_info"
+            android:exported="false" />
+        <activity
+            android:name=".register"
+            android:exported="false" />
+        <activity
+            android:name=".log_in"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".notification"
+            android:exported="false" />
+        <activity
+            android:name=".fav_page"
+            android:exported="false" />
+        <activity
+            android:name=".favorite_page"
+            android:exported="false"
+            android:label="@string/title_activity_favorite_page"
+            android:theme="@style/Theme.Ecar_Track" />
+        <activity
+            android:name=".favorite"
+            android:exported="false"
+            android:label="@string/title_activity_favorite"
+            android:theme="@style/Theme.Ecar_Track" />
+        <activity
+            android:name=".home_page"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -21,6 +58,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
