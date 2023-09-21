@@ -6,9 +6,9 @@
         android:icon="@drawable/baseline_home_24"
         android:title="@string/home_page" />
     <item
-        android:id="@+id/Favorite"
+        android:id="@+id/Favourite"
         android:icon="@drawable/baseline_favorite_border_24"
-        android:title="@string/favorite_page" />
+        android:title="@string/fav_page" />
     <item
         android:id="@+id/Notification"
         android:icon="@drawable/baseline_notifications_none_24"

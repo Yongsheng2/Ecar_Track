@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Ecar_Track"
         tools:targetApi="31">
         <activity
+            android:name=".fav_page"
+            android:exported="false" />
+        <activity
             android:name=".splash"
             android:exported="false" />
         <activity
@@ -34,15 +37,12 @@
             android:name=".notification"
             android:exported="false" />
         <activity
-            android:name=".fav_page"
-            android:exported="false" />
-        <activity
-            android:name=".favorite_page"
+            android:name=".favourite_page"
             android:exported="false"
             android:label="@string/title_activity_favorite_page"
             android:theme="@style/Theme.Ecar_Track" />
         <activity
-            android:name=".favorite"
+            android:name=".favourite"
             android:exported="false"
             android:label="@string/title_activity_favorite"
             android:theme="@style/Theme.Ecar_Track" />
