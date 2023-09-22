@@ -10,4 +10,14 @@
         android:name="my.tarc.edu.ecar_track.favourite.fav_page"
         android:label="activity_fav_page"
         tools:layout="@layout/activity_fav_page" />
+    <activity
+        android:id="@+id/home_page"
+        android:name="my.tarc.edu.ecar_track.home.home_page"
+        android:label="activity_home_page"
+        tools:layout="@layout/activity_home_page" />
+    <activity
+        android:id="@+id/profile"
+        android:name="my.tarc.edu.ecar_track.profile.profile"
+        android:label="activity_profile"
+        tools:layout="@layout/activity_profile" />
 </navigation>
