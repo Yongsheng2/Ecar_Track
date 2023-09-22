@@ -13,28 +13,28 @@
         android:theme="@style/Theme.Ecar_Track"
         tools:targetApi="31">
         <activity
-            android:name=".fav_page"
+            android:name=".favourite.fav_page"
             android:exported="false" />
         <activity
             android:name=".splash"
             android:exported="false" />
         <activity
-            android:name=".station_detail"
+            android:name=".favourite.station_detail"
             android:exported="false" />
         <activity
             android:name=".user_info"
             android:exported="false" />
         <activity
-            android:name=".register"
+            android:name=".register.register"
             android:exported="false" />
         <activity
-            android:name=".log_in"
+            android:name=".login.log_in"
             android:exported="false" />
         <activity
-            android:name=".profile"
+            android:name=".profile.profile"
             android:exported="false" />
         <activity
-            android:name=".notification"
+            android:name=".notification.notification"
             android:exported="false" />
         <activity
             android:name=".favourite_page"
@@ -47,7 +47,7 @@
             android:label="@string/title_activity_favorite"
             android:theme="@style/Theme.Ecar_Track" />
         <activity
-            android:name=".home_page"
+            android:name=".home.home_page"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

@@ -7,7 +7,7 @@
 
     <activity
         android:id="@+id/fav_page"
-        android:name="my.tarc.edu.ecar_track.fav_page"
+        android:name="my.tarc.edu.ecar_track.favourite.fav_page"
         android:label="activity_fav_page"
         tools:layout="@layout/activity_fav_page" />
 </navigation>
