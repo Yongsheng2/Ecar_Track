@@ -10,4 +10,18 @@
         android:name="my.tarc.edu.ecar_track.login.log_in"
         android:label="@string/home_page"
         tools:layout="@layout/activity_home_page" />
+    <activity
+        android:id="@+id/fav_page"
+        android:name="my.tarc.edu.ecar_track.favourite.fav_page"
+        android:label="activity_fav_page"
+        tools:layout="@layout/activity_fav_page" />
+    <activity
+        android:id="@+id/profile"
+        android:name="my.tarc.edu.ecar_track.profile.profile"
+        android:label="activity_profile"
+        tools:layout="@layout/activity_profile" />
+    <activity
+        android:id="@+id/notification"
+        android:name="my.tarc.edu.ecar_track.notification.notification"
+        android:label="notification" />
 </navigation>
